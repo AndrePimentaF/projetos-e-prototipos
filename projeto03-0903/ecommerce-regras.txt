@@ -1,0 +1,66 @@
+main class="container"
+ section class="products-container"
+  div class="card" (se repete a cada produto)
+  h2 (nome)
+  p  (descrição)
+  a
+    div class="card" (se repete a cada produto)
+  h2 (nome)
+  p  (descrição)
+  a
+    div class="card" (se repete a cada produto)
+  h2 (nome)
+  p  (descrição)
+  a
+    div class="card" (se repete a cada produto)
+  h2 (nome)
+  p  (descrição)
+  a
+  
+
+  box-sizing:border-box;
+
+css:
+ .container {
+   background-color:#eee;
+   min-height:60%;
+   padding:50px;
+   }
+ .products-container{
+  max-width:1200px;
+  margin: 0 auto;
+}
+
+.card{
+ width:31%;
+display:inline-block;
+margin: 1% 1%;
+padding:15px;
+}
+
+.product-image{
+ height: 300px;
+ width:100%;
+ margin-bottom:10px;
+background-position:center;
+background-size:cover;
+
+
+ footer{
+background-color:
+color:
+border-top:
+padding:
+}
+
+
+
+
+
+
+
+
+
+
+
+
